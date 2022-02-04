@@ -16,37 +16,67 @@ example)
  
 
 An example of (file) input and output of STG for the n-task-n-agent-assignment problem for n = 20.
+
 1: Input:
+
 2: NumberOfTasks 20
+
 3: NumberOfAgents 20
+
 4: . . .
+
 5: TaskLength 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200
+
 6: ProcessingCapacity 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200
+
 7: . . .
+
 8: #GAs
+
 9: CrossoverRate 0.8
+
 10: MutationRate 0.005
+
 11: . . .
+
 12: #Young Tableau: Y, Young Tabloid: N
+
 13: YoungTableau Y
+
 14: NumberOfPartitions 4
+
 15: TableauShape 6 6 4 4
+
 16: . . .
+
 17: 1
+
 18: 2
+
 19: . . .
+
 20: 19 16 17
+
 21: 20 18 19
 
 22: Output:
+
 23: (GENERATION 800)
+
 24: ********************** Candidate Solution********************
+
 25: Candidate Solution Fitness:0.205212
+
 26: 1 2 3 4 5 6 7 9 8 11 12 13 14 16 10 17 18 15 19 20
+
 27: . . .
+
 28: Tableau Shape: 6 6 4 4
+
 29: . . .
+
 30: {{1; 2; 3; 4; 5; 6}; {7; 9; 8; 11; 12; 13}; {14; 16; 10; 17}; {18; 15; 19; 20}},
+
 31: . . .
 
  
