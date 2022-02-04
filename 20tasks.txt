@@ -1,0 +1,52 @@
+# Parameter Input File
+
+# Number of Tasks
+NumberOfTasks 20
+
+NumberOfAgents 20 
+
+Agent_List h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20
+
+# Task Length
+Task_Length 10 20 30 40	50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200
+
+# Processing power available for each node
+Processing_Capacity 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 
+
+# GAs
+CrossoverRate	0.8
+MutationRate	0.005
+
+# Concerns only makespan, not resource utilization
+FitnessWeight	0.0
+
+# Young Tableau : Y, Young Tabloid : N
+YoungTableau	Y
+
+NumberOfPartitions  4
+
+TableauShape        6 6 4 4
+
+# Precedence Constraints Indices 
+Precedence_Indices 0 0 0 0 0 0 0 0 0 0 2 2 2 2 2 2 2 1 2 2
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11	1	2
+12	3	4	
+13	5	6
+14	7	8
+15	9	10
+16	11	12
+17	13	14
+18	15
+19	16	17
+20	18	19
